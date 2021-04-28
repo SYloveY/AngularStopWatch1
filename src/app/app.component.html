@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="time-container">
+    <h3>{{ time | timerForm }}</h3>
+</div>
+
+  <div class="time-container">
+      <button class="btn success" (click)="onStartStopClick()">Start/Stop</button>
+      <button class="btn warning" (click)="onWaitClick()">Wait</button>
+      <button class="btn danger" (click)="onResetClick()">Reset</button>
+  </div>
+
+
+</div>
